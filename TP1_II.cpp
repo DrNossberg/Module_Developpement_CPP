@@ -8,7 +8,6 @@
 **    Calculation of the winner of a tennis match
 */
 
-#include <sstream>
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -39,8 +38,7 @@ void determine_winner(int pp_one, int pp_two) {
 }
 
 int main(int argc, char const *argv[]) {
-    int intput_a;
-    int intput_b;
+    int intput_a, intput_b;
 
     cout << "Please entre the number of round won by eatch players (ex: 2 3) :" << endl;
     cin >> intput_a;
