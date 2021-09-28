@@ -24,7 +24,6 @@ int main(int argc, char const *argv[]) {
 
     srand((unsigned)(time(NULL)));
     goal = get_random();
-
     cout << "Hello ! Welcome to the guess game !"
     << endl << "Goal of the game : gessing the right number." << endl;
     do {
@@ -36,6 +35,6 @@ int main(int argc, char const *argv[]) {
         if (guess < goal)
             cout << "It's more!" << endl;
     } while (guess != goal);
-    std::cout << "Well done !" << endl << "You guessed right in only " << try_count << " attempts !" << endl;
+    cout << "Well done !" << endl << "You guessed right in only " << try_count << " attempts !" << endl;
     return (0);
 }
