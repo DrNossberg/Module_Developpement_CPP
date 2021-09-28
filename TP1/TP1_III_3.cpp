@@ -15,17 +15,6 @@
 
 using namespace std;
 
-/*enum class Color
-{
-    RED,
-    GREEN,
-    YELLOW,
-    BLUE,
-    WHITE
-};
-*/
-
-
 void victory_msg() {
     cout << "██╗     ███████╗████████╗███████╗     ██████╗  ██████╗ ██╗" << endl;
     cout << "██║     ██╔════╝╚══██╔══╝██╔════╝    ██╔════╝ ██╔═══██╗██║" << endl;
